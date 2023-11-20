@@ -19,6 +19,7 @@ namespace RESTOTOo
         }
         static string constring = @"Data Source=LAPTOP-HVN2B3FS\SQLEXPRESS;Initial Catalog=RestOto;Trusted_Connection=True;";
         SqlConnection baglan = new SqlConnection(constring);
+        string deneme = "";
         public void kayitgetir()
         {
             string getir = "Select * From PersonelTb";
